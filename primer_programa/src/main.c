@@ -14,7 +14,7 @@ void app_main(void)
 {
     init_led(); // inicializamos el pint/GPIO
 
-    while (true)
+    while (true) 
     {
         vTaskDelay(1000 / portTICK_PERIOD_MS); // Espera 1 segundo
         blink_led(); // Cambiamos de estado el pin
